@@ -1992,7 +1992,6 @@ header {
   }
 
   .media__hero {
-    width: calc(100% - 48px);
     min-height: 340px;
     background-image: url(/images/36163dfa4eacb8a7e43f74a940d932b69d57ce6f.png);
     background-size: cover;
@@ -2000,7 +1999,9 @@ header {
     padding: 44px 0 44px 36px;
     margin: 0 24px;
   }
-
+  .sidebar{
+    display: none;
+  }
   .media__title {
     display: block !important;
     font-size: 40px;
