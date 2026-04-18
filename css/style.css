@@ -2070,10 +2070,8 @@ header {
   .products__boxes--cards {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 14px;
-    flex-wrap: unset;
-    align-content: unset;
   }
 
   .boxes__cards--box {
@@ -2333,6 +2331,7 @@ header {
   .footer__follow {
     justify-content: flex-start;
   }
+
 }
 
 @media (max-width: 1199px) and (min-width: 769px) {
